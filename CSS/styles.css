@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: fixed;
+    height: 70px;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.logo{
+    width: 40%;
+}
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
+.nav-horizontal li{
+    display: inline;
+    padding: 10px;
+}
+
+.nav-horizontal a{
+    color: #083E9E;
+}
+
+.nav-btn{
+    border: 1px solid ;
+    border-radius: 5px;
+    color: #083E9E;
+    background-color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font: inherit;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-btn:hover{
+    background-color: #083E9E;
+    color: white;
+}
+
+.introduction{
+    height: 450px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 130px;
+    background-image: url(https://storage.googleapis.com/piggybankservice.appspot.com/statics/woman-header-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.heading{
+    width: 50%;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -2px;
+    color: #083E9E;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.heading-desc{
+    width: 50%;
+    font-size: 16px;
+    color: #444;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font: inherit;
+    letter-spacing: 0px;
+    font-weight: bold;
+
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 5px;
+    color: white;
+    background-color:#30c57b;
+    padding: 15px 40px;
+    font-size: 18px;
+    font: inherit;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: #083E9E;
+}
+
+.badges{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 125px;
+}
+
+.security-main{
+    background-color: #fafafa;
+    padding: 50px 0 ;
+}
+.security{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.security-img{
+    width: 17%;
+    float: left;
+    margin-right: 20px;
+}
+
+.security h2{
+    font-size: 30px;
+    color: #083E9E;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.security p{
+    font-size: 13px;
+    color: #444;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.savings{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.savings-h2{
+    font-size: 30px;
+    color: #083E9E;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.savings-p{
+    font-size: 12px;
+    color: #444;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    font: inherit;
+    font-weight: normal;
+    margin-bottom: 50px;
+    word-spacing: -1px;
+    
+}
+.text-mid{
+    text-align: center;
+}
+
+.savings-disp{
+    border: 0.5px solid rgb(195, 230, 241);
+    border-radius: 5px;
+    display: inline-block;
+    width: 33%;
+}
+
+.savings-img{
+    width: 90%;
+    margin: 20px 20px;
+}
+.savings-disp p {
+    margin: 5px 20px 20px;
+}
+.savings-disp h2 {
+    margin: 0px 20px 0px;
+}
